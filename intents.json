@@ -1,0 +1,222 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Good morning",
+        "Hey there",
+        "Greetings"
+      ],
+      "responses": [
+        "Welcome to [sheraton hotel ]! How can I assist you today?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "I have to go",
+        "Catch you later"
+      ],
+      "responses": [
+        "Thank you for choosing [sheraton hotel ]. Have a great day!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Much appreciated",
+        "Thank you very much"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "booking",
+      "patterns": [
+        "I want to book a room",
+        "I need a reservation",
+        "Book a room",
+        "I want to reserve a room"
+      ],
+      "responses": [
+        "Sure, I can help with your booking. Could you please provide your check-in and check-out dates, and the room type?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "checkin",
+      "patterns": [
+        "What time is check-in?",
+        "When can I check in?",
+        "Check-in time?"
+      ],
+      "responses": [
+        "Our check-in time starts at 3 PM. Early check-in may be available upon request."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "checkout",
+      "patterns": [
+        "What time is check-out?",
+        "When do I need to leave?",
+        "Check-out time?"
+      ],
+      "responses": [
+        "Our check-out time is at 11 AM. Let us know if you need any assistance."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "room_service",
+      "patterns": [
+        "I need room service",
+        "Can I order food to my room?",
+        "Room service"
+      ],
+      "responses": [
+        "Room service is available 24/7. Would you like to see our menu?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "amenities",
+      "patterns": [
+        "What amenities do you offer?",
+        "Do you have a gym?",
+        "Is there a pool?",
+        "Tell me about your facilities"
+      ],
+      "responses": [
+        "We offer a range of amenities including a gym, spa, swimming pool, and complimentary Wi-Fi."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "hotel_info",
+      "patterns": [
+        "Tell me about the hotel",
+        "What is your address?",
+        "Where are you located?",
+        "Hotel location"
+      ],
+      "responses": [
+        "We are located at [Hotel Address]. We offer luxurious rooms, top-notch services, and a prime location."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "reservation_status",
+      "patterns": [
+        "Can I check my booking status?",
+        "What is my reservation status?",
+        "I want to check my booking"
+      ],
+      "responses": [
+        "Sure, please provide your reservation number so I can look that up for you."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "cancellation",
+      "patterns": [
+        "I want to cancel my reservation",
+        "How can I cancel my booking?",
+        "Cancel my reservation"
+      ],
+      "responses": [
+        "To cancel your reservation, please provide your booking details and reservation number."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "complaints",
+      "patterns": [
+        "I have a complaint",
+        "My room is not clean",
+        "There is an issue with my room",
+        "I need to report a problem"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Could you please provide more details so we can assist you immediately?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "services",
+      "patterns": [
+        "Do you offer shuttle services?",
+        "Is there an airport transfer?",
+        "How do I get to the airport?"
+      ],
+      "responses": [
+        "Yes, we offer shuttle services to and from the airport. Would you like to book one?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "dining",
+      "patterns": [
+        "What dining options do you have?",
+        "Is breakfast included?",
+        "Tell me about your restaurants",
+        "Where can I eat?"
+      ],
+      "responses": [
+        "Our hotel features an on-site restaurant offering breakfast, lunch, and dinner. We also have a bar for evening drinks."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Do you host events?",
+        "Are there any conferences or events?",
+        "Tell me about your event spaces",
+        "Do you have meeting rooms?"
+      ],
+      "responses": [
+        "Yes, we have event spaces available for conferences, weddings, and other special occasions. Would you like more details?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "spa",
+      "patterns": [
+        "Do you have a spa?",
+        "I need spa services",
+        "Tell me about your spa",
+        "Spa appointment"
+      ],
+      "responses": [
+        "Our spa offers a variety of treatments including massages, facials, and more. Would you like to book an appointment?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Is there parking available?",
+        "Do you have a parking lot?",
+        "Parking options",
+        "Where can I park?"
+      ],
+      "responses": [
+        "Yes, we offer complimentary parking for our guests."
+      ],
+      "context": [""]
+    }
+  ]
+}
